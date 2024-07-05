@@ -1,0 +1,202 @@
+*{
+    font-family: "IBM Plex Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    background-color: transparent;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+nav ul{
+    display: flex;
+
+}
+nav ul li a{
+    margin: 10px;
+    color: burlywood;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li a:hover{
+    text-shadow: 2px 4px 6px;
+    color: darkgray;
+}
+video{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.overlay{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    color: aliceblue;
+}
+h1:hover{
+    text-shadow: 2ox 4px 6px brown;
+    text-decoration: underline;
+}
+span{
+    color: darkred;
+    font-weight: bolder;
+}
+#home{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+#home::before{
+   content: "";
+   background-image: url(https://th.bing.com/th/id/R.a777b9637ec86de597e3902d769ffdfc?rik=dkr1V6do%2bnezUg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f7%2fc%2f2%2f1173099-best-developer-wallpaper-hd-1920x1280-htc.jpg&ehk=cpS0yc7f%2f1d6Iv%2bBt0DPh0lhj%2fUcJy3FTDvcU927IPc%3d&risl=&pid=ImgRaw&r=0);
+    height: 100%;
+    background-size: cover;
+}
+.main{
+    display: flex;
+    position: absolute;
+    border: 2px inset cornsilk;
+    padding: 3px;
+    top: 85%;
+    left: 80%;
+    box-shadow: 2px 4px 6px;
+}
+.main:hover{
+    scale: 1.03;
+}
+.pic{
+    display: flex;
+}
+.pic img{
+    width: 400px;
+}
+.pic h4{
+    color: cadetblue;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+.pic p{
+    text-align: justify;
+    margin: 10px;
+    background-color: beige;
+    
+}
+h3{
+    text-align: center;
+    color: coral;
+    margin-top: 5px;
+    background-color:darkseagreen;
+}
+.gallery{
+    border: 5px groove blueviolet;
+    margin-top: 5px;
+    box-shadow: 2px 4px 6px blueviolet;
+}
+.gallery img{
+    width: 350px;
+    margin: 5px;
+    padding: 10px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.gallery img:hover{
+    scale: 1.05;
+    box-shadow: 2px 4px 6px blueviolet;
+}
+.row{
+    background-color: bisque;
+    display: flex;
+    margin-top: 15px;
+
+
+}
+.box{
+    width: 400px;
+    margin: 5px;
+    height: 450px;
+    margin-left: 63px;
+    margin-top: 20px;
+    border: 2px inset burlywood;
+    background: linear-gradient(to top, bisque 50%,darkgray 50%);
+    background-size: 100% 200%;
+    transition: all 0.6s;
+
+}
+.box:hover{
+    background-position: right bottom;
+    border: 4px ridge blue;
+    box-shadow: 3px 4px blanchedalmond;
+}
+.box img{
+    width: 100%;
+    border-radius: 10%;
+
+
+}
+.box h5{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 20px;
+    color: darkkhaki;
+}
+.box p{
+    text-align: justify;
+    font-style: italic;
+    padding: 10px;
+}
+form{
+    width: 500px;
+    margin-left: 500px;
+}
+.input{
+    width: 100%;
+    margin: 10px;
+}
+button{
+    color: antiquewhite;
+    background-color: black;
+    padding: 5px;
+    cursor: pointer;
+}
+.cv{
+    background-color: bisque;
+    color: rgb(215, 187, 145);
+    padding: 5px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5%;
+    margin-left: 55%;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #d81f1f; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555555; 
+  }
